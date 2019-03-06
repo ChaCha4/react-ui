@@ -1,0 +1,14 @@
+.items-enter {
+  opacity: 0;
+}
+.items-enter-active {
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+.items-exit {
+  opacity: 1;
+}
+.items-exit-active {
+  opacity: 0;
+  transition: all 0.5s linear;
+}

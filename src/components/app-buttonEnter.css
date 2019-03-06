@@ -1,0 +1,20 @@
+.msg {
+  display: block;
+}
+.message-enter {
+  opacity: 0;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.message-enter-active {
+  opacity: 1;
+  font-size: 20px;
+  margin-top: 0;
+  transition: all 3s;
+}
+/* timeout设置为3s中间过程如果大于3s多出来的渐出效果会被剪掉，3s结束直接跳到最终样式 */
+/* 以上是中间过程，下面是最终样式 */
+.message-enter-done {
+  opacity: 1;
+  font-size: 20px;
+}
